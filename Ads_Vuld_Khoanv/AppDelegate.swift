@@ -7,16 +7,25 @@
 //
 
 import UIKit
-
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
     var window: UIWindow?
-
-
+    var initalViewController:UIViewController?;
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        GatewayInit.start();
+        initalViewController = DependencyResolver.getUserView();
+        let frame = UIScreen.main.bounds
+        window = UIWindow(frame: frame)
+        window?.rootViewController = initalViewController
+        window?.makeKeyAndVisible()
         return true
+    }
+    
+    func completeLogin(result:Bool) -> Void {
+        print("complete callback :");
+        print(result);
+
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

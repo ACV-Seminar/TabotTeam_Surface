@@ -1,0 +1,6 @@
+framework module Pods_Ads_Vuld_Khoanv {
+  umbrella header "Pods-Ads_Vuld_Khoanv-umbrella.h"
+
+  export *
+  module * { export * }
+}

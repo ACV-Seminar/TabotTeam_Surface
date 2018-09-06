@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>819164683951-oc9un0nj8ai2muqt4jjcdja1lru38njf.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.819164683951-oc9un0nj8ai2muqt4jjcdja1lru38njf</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBz32qBugY7AEvXzarHubNg9eiJcbenWts</string>
+	<key>GCM_SENDER_ID</key>
+	<string>819164683951</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>earn.money.vuld.khoanv.top.best</string>
+	<key>PROJECT_ID</key>
+	<string>adsvuldkhoanv</string>
+	<key>STORAGE_BUCKET</key>
+	<string>adsvuldkhoanv.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:819164683951:ios:d54d90153fbabac5</string>
+	<key>DATABASE_URL</key>
+	<string>https://adsvuldkhoanv.firebaseio.com</string>
+</dict>
+</plist>
