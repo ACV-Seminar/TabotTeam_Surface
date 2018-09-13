@@ -20,7 +20,8 @@ public class UserController{
     func onLoginSuccess(isSuccess:Bool){
         if(isSuccess){
             print("On Login Successfully");
-
+            print("Goto HomePage");
+            
         }
         else{
             print("On Login faild");

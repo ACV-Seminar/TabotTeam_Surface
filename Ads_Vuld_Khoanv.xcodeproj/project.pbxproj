@@ -14,8 +14,6 @@
 		3A85770B2137DC6C00B854B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A8577092137DC6C00B854B0 /* Main.storyboard */; };
 		3A85770D2137DC6E00B854B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A85770C2137DC6E00B854B0 /* Assets.xcassets */; };
 		3A8577102137DC6E00B854B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A85770E2137DC6E00B854B0 /* LaunchScreen.storyboard */; };
-		3A85771E2137E43B00B854B0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A85771D2137E43B00B854B0 /* User.swift */; };
-		3A8577202137EF1D00B854B0 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A85771F2137EF1D00B854B0 /* Profile.swift */; };
 		3A8577222137F86C00B854B0 /* UserBoundary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8577212137F86C00B854B0 /* UserBoundary.swift */; };
 		3A8577242137FA7800B854B0 /* EntityGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8577232137FA7800B854B0 /* EntityGateway.swift */; };
 		3A8577262137FAC500B854B0 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8577252137FAC500B854B0 /* Entity.swift */; };
@@ -26,11 +24,23 @@
 		3A863498213F8944009E9045 /* DependencyResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A863497213F8944009E9045 /* DependencyResolver.swift */; };
 		3A86349B213FBBE4009E9045 /* IUserPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A86349A213FBBE4009E9045 /* IUserPresenter.swift */; };
 		3A86349D213FBCCE009E9045 /* UserPresenter_Impl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A86349C213FBCCE009E9045 /* UserPresenter_Impl.swift */; };
-		3AD02204214109F700CE9D50 /* DomainEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD02203214109F700CE9D50 /* DomainEntity.swift */; };
 		3AFB6675213FC0CE002C6289 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB6674213FC0CE002C6289 /* UserView.swift */; };
 		3AFB6677213FCB4E002C6289 /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB6676213FCB4E002C6289 /* UserController.swift */; };
 		3AFB6679213FE336002C6289 /* ProfileGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB6678213FE336002C6289 /* ProfileGateway.swift */; };
 		3AFB667B213FE36A002C6289 /* ProfileGateway_Impl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB667A213FE36A002C6289 /* ProfileGateway_Impl.swift */; };
+		A74ED1AE214A3FBA00D891F5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74ED1AC214A3FBA00D891F5 /* User.swift */; };
+		A74ED1AF214A3FBA00D891F5 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74ED1AD214A3FBA00D891F5 /* Profile.swift */; };
+		A74ED1B3214A8F5900D891F5 /* DomainEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74ED1B2214A8F5900D891F5 /* DomainEntity.swift */; };
+		A74ED1B5214AA5D700D891F5 /* EarnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74ED1B4214AA5D700D891F5 /* EarnView.swift */; };
+		A74ED1B7214AA84500D891F5 /* IEarnPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74ED1B6214AA84500D891F5 /* IEarnPresenter.swift */; };
+		A74ED1B9214AA94700D891F5 /* EarnPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74ED1B8214AA94700D891F5 /* EarnPresenter.swift */; };
+		A74ED1BB214AAACC00D891F5 /* EarnController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74ED1BA214AAACC00D891F5 /* EarnController.swift */; };
+		A74ED1BD214AAB1800D891F5 /* EarnGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74ED1BC214AAB1800D891F5 /* EarnGateway.swift */; };
+		A74ED1BF214AACA600D891F5 /* Earn.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74ED1BE214AACA600D891F5 /* Earn.swift */; };
+		A74ED1C1214AAF7C00D891F5 /* EarnConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74ED1C0214AAF7C00D891F5 /* EarnConfig.swift */; };
+		A74ED1C3214AB0F500D891F5 /* EarnGateway_Impl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74ED1C2214AB0F500D891F5 /* EarnGateway_Impl.swift */; };
+		A74ED1C5214AB1FD00D891F5 /* EarnBoundary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74ED1C4214AB1FD00D891F5 /* EarnBoundary.swift */; };
+		A74ED1C7214AB21F00D891F5 /* EarnBoundary_Impl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74ED1C6214AB21F00D891F5 /* EarnBoundary_Impl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,8 +52,6 @@
 		3A85770C2137DC6E00B854B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A85770F2137DC6E00B854B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A8577112137DC6E00B854B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3A85771D2137E43B00B854B0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = User.swift; path = Ads_Vuld_Khoanv/Domain/Data/User.swift; sourceTree = SOURCE_ROOT; };
-		3A85771F2137EF1D00B854B0 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Profile.swift; path = Ads_Vuld_Khoanv/Domain/Data/Profile.swift; sourceTree = SOURCE_ROOT; };
 		3A8577212137F86C00B854B0 /* UserBoundary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserBoundary.swift; sourceTree = "<group>"; };
 		3A8577232137FA7800B854B0 /* EntityGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityGateway.swift; sourceTree = "<group>"; };
 		3A8577252137FAC500B854B0 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
@@ -54,7 +62,6 @@
 		3A863497213F8944009E9045 /* DependencyResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyResolver.swift; sourceTree = "<group>"; };
 		3A86349A213FBBE4009E9045 /* IUserPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IUserPresenter.swift; sourceTree = "<group>"; };
 		3A86349C213FBCCE009E9045 /* UserPresenter_Impl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPresenter_Impl.swift; sourceTree = "<group>"; };
-		3AD02203214109F700CE9D50 /* DomainEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainEntity.swift; sourceTree = "<group>"; };
 		3AFB6674213FC0CE002C6289 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 		3AFB6676213FCB4E002C6289 /* UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
 		3AFB6678213FE336002C6289 /* ProfileGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileGateway.swift; sourceTree = "<group>"; };
@@ -62,6 +69,19 @@
 		5B7F0E2F2C523ACDECA5E2A1 /* Pods-Ads_Vuld_Khoanv.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ads_Vuld_Khoanv.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ads_Vuld_Khoanv/Pods-Ads_Vuld_Khoanv.release.xcconfig"; sourceTree = "<group>"; };
 		788632EAA5CACB0DF0D14EEF /* Pods_Ads_Vuld_Khoanv.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ads_Vuld_Khoanv.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79270D5AEDF7E53B252E5398 /* Pods-Ads_Vuld_Khoanv.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ads_Vuld_Khoanv.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ads_Vuld_Khoanv/Pods-Ads_Vuld_Khoanv.debug.xcconfig"; sourceTree = "<group>"; };
+		A74ED1AC214A3FBA00D891F5 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = Ads_Vuld_Khoanv/Main/Data/User.swift; sourceTree = SOURCE_ROOT; };
+		A74ED1AD214A3FBA00D891F5 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Profile.swift; path = Ads_Vuld_Khoanv/Main/Data/Profile.swift; sourceTree = SOURCE_ROOT; };
+		A74ED1B2214A8F5900D891F5 /* DomainEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainEntity.swift; sourceTree = "<group>"; };
+		A74ED1B4214AA5D700D891F5 /* EarnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarnView.swift; sourceTree = "<group>"; };
+		A74ED1B6214AA84500D891F5 /* IEarnPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IEarnPresenter.swift; sourceTree = "<group>"; };
+		A74ED1B8214AA94700D891F5 /* EarnPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarnPresenter.swift; sourceTree = "<group>"; };
+		A74ED1BA214AAACC00D891F5 /* EarnController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarnController.swift; sourceTree = "<group>"; };
+		A74ED1BC214AAB1800D891F5 /* EarnGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarnGateway.swift; sourceTree = "<group>"; };
+		A74ED1BE214AACA600D891F5 /* Earn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Earn.swift; sourceTree = "<group>"; };
+		A74ED1C0214AAF7C00D891F5 /* EarnConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarnConfig.swift; sourceTree = "<group>"; };
+		A74ED1C2214AB0F500D891F5 /* EarnGateway_Impl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarnGateway_Impl.swift; sourceTree = "<group>"; };
+		A74ED1C4214AB1FD00D891F5 /* EarnBoundary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarnBoundary.swift; sourceTree = "<group>"; };
+		A74ED1C6214AB21F00D891F5 /* EarnBoundary_Impl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarnBoundary_Impl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				3A85772B2139396600B854B0 /* GoogleService-Info.plist */,
-				3A8577172137DCB600B854B0 /* Domain */,
+				3A8577172137DCB600B854B0 /* Main */,
 				3A8577052137DC6C00B854B0 /* AppDelegate.swift */,
 				3A8577072137DC6C00B854B0 /* ViewController.swift */,
 				3A8577092137DC6C00B854B0 /* Main.storyboard */,
@@ -109,27 +129,28 @@
 			path = Ads_Vuld_Khoanv;
 			sourceTree = "<group>";
 		};
-		3A8577172137DCB600B854B0 /* Domain */ = {
+		3A8577172137DCB600B854B0 /* Main */ = {
 			isa = PBXGroup;
 			children = (
 				3A863499213FBBC3009E9045 /* Presenter */,
 				3A863496213F8910009E9045 /* infra.di */,
-				3A85771C2137DDDE00B854B0 /* Data */,
 				3A85771B2137DD9000B854B0 /* UI */,
 				3A85771A2137DD0500B854B0 /* Gateways */,
 				3A8577192137DCF400B854B0 /* UseCase */,
 				3A8577182137DCCA00B854B0 /* Entities */,
 			);
-			path = Domain;
+			path = Main;
 			sourceTree = "<group>";
 		};
 		3A8577182137DCCA00B854B0 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
-				3A85771D2137E43B00B854B0 /* User.swift */,
-				3A85771F2137EF1D00B854B0 /* Profile.swift */,
+				A74ED1AD214A3FBA00D891F5 /* Profile.swift */,
+				A74ED1AC214A3FBA00D891F5 /* User.swift */,
 				3A8577252137FAC500B854B0 /* Entity.swift */,
-				3AD02203214109F700CE9D50 /* DomainEntity.swift */,
+				A74ED1B2214A8F5900D891F5 /* DomainEntity.swift */,
+				A74ED1BE214AACA600D891F5 /* Earn.swift */,
+				A74ED1C0214AAF7C00D891F5 /* EarnConfig.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -139,6 +160,8 @@
 			children = (
 				3A8577212137F86C00B854B0 /* UserBoundary.swift */,
 				3A863494213F8787009E9045 /* UserBoundary_Impl.swift */,
+				A74ED1C4214AB1FD00D891F5 /* EarnBoundary.swift */,
+				A74ED1C6214AB21F00D891F5 /* EarnBoundary_Impl.swift */,
 			);
 			path = UseCase;
 			sourceTree = "<group>";
@@ -152,6 +175,8 @@
 				3A4839C221393DAE00309EAD /* GatewayInit.swift */,
 				3AFB6678213FE336002C6289 /* ProfileGateway.swift */,
 				3AFB667A213FE36A002C6289 /* ProfileGateway_Impl.swift */,
+				A74ED1BC214AAB1800D891F5 /* EarnGateway.swift */,
+				A74ED1C2214AB0F500D891F5 /* EarnGateway_Impl.swift */,
 			);
 			path = Gateways;
 			sourceTree = "<group>";
@@ -160,15 +185,9 @@
 			isa = PBXGroup;
 			children = (
 				3AFB6674213FC0CE002C6289 /* UserView.swift */,
+				A74ED1B4214AA5D700D891F5 /* EarnView.swift */,
 			);
 			path = UI;
-			sourceTree = "<group>";
-		};
-		3A85771C2137DDDE00B854B0 /* Data */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Data;
 			sourceTree = "<group>";
 		};
 		3A863496213F8910009E9045 /* infra.di */ = {
@@ -185,6 +204,9 @@
 				3A86349A213FBBE4009E9045 /* IUserPresenter.swift */,
 				3A86349C213FBCCE009E9045 /* UserPresenter_Impl.swift */,
 				3AFB6676213FCB4E002C6289 /* UserController.swift */,
+				A74ED1B6214AA84500D891F5 /* IEarnPresenter.swift */,
+				A74ED1B8214AA94700D891F5 /* EarnPresenter.swift */,
+				A74ED1BA214AAACC00D891F5 /* EarnController.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -353,24 +375,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A4839C321393DAE00309EAD /* GatewayInit.swift in Sources */,
+				A74ED1BF214AACA600D891F5 /* Earn.swift in Sources */,
 				3A8577082137DC6C00B854B0 /* ViewController.swift in Sources */,
+				A74ED1B9214AA94700D891F5 /* EarnPresenter.swift in Sources */,
 				3AFB6677213FCB4E002C6289 /* UserController.swift in Sources */,
-				3AD02204214109F700CE9D50 /* DomainEntity.swift in Sources */,
-				3A8577202137EF1D00B854B0 /* Profile.swift in Sources */,
+				A74ED1B3214A8F5900D891F5 /* DomainEntity.swift in Sources */,
 				3A8577262137FAC500B854B0 /* Entity.swift in Sources */,
 				3A863498213F8944009E9045 /* DependencyResolver.swift in Sources */,
 				3A8577222137F86C00B854B0 /* UserBoundary.swift in Sources */,
+				A74ED1B7214AA84500D891F5 /* IEarnPresenter.swift in Sources */,
+				A74ED1AE214A3FBA00D891F5 /* User.swift in Sources */,
 				3A8577062137DC6C00B854B0 /* AppDelegate.swift in Sources */,
+				A74ED1AF214A3FBA00D891F5 /* Profile.swift in Sources */,
+				A74ED1BD214AAB1800D891F5 /* EarnGateway.swift in Sources */,
 				3AFB667B213FE36A002C6289 /* ProfileGateway_Impl.swift in Sources */,
+				A74ED1C3214AB0F500D891F5 /* EarnGateway_Impl.swift in Sources */,
+				A74ED1C7214AB21F00D891F5 /* EarnBoundary_Impl.swift in Sources */,
 				3AFB6675213FC0CE002C6289 /* UserView.swift in Sources */,
 				3A85772A213801E600B854B0 /* UserGetway_Impl.swift in Sources */,
+				A74ED1C1214AAF7C00D891F5 /* EarnConfig.swift in Sources */,
 				3A8577282137FE9200B854B0 /* UserGateway.swift in Sources */,
 				3A863495213F8788009E9045 /* UserBoundary_Impl.swift in Sources */,
 				3AFB6679213FE336002C6289 /* ProfileGateway.swift in Sources */,
+				A74ED1BB214AAACC00D891F5 /* EarnController.swift in Sources */,
 				3A86349B213FBBE4009E9045 /* IUserPresenter.swift in Sources */,
 				3A86349D213FBCCE009E9045 /* UserPresenter_Impl.swift in Sources */,
-				3A85771E2137E43B00B854B0 /* User.swift in Sources */,
+				A74ED1B5214AA5D700D891F5 /* EarnView.swift in Sources */,
 				3A8577242137FA7800B854B0 /* EntityGateway.swift in Sources */,
+				A74ED1C5214AB1FD00D891F5 /* EarnBoundary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,7 +548,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8BHW78YNMB;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Ads_Vuld_Khoanv/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -535,7 +567,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8BHW78YNMB;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Ads_Vuld_Khoanv/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

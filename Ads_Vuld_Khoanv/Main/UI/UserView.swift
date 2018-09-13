@@ -7,8 +7,6 @@
 //
 
 import UIKit
-import Firebase
-
 public class UserView: UIViewController {
     var presenter: IUserPresenter?;
     let inputsContainerView:UIView = {
@@ -39,7 +37,8 @@ public class UserView: UIViewController {
         }
         if loginRegisterSegmentControl.selectedSegmentIndex == 0 {
             print("login")
-            self.presenter?.onLoginBtn(email: email, password: password);
+            self.presenter?.onLoginBtn(email: email, password: password)
+            (email: email, password: password);
         }
         else {
             print("register")

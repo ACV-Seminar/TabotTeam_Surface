@@ -13,7 +13,7 @@ public class UserPresenter_Impl : IUserPresenter{
         controller = DependencyResolver.getUserController();
     }
     @objc public func onLoginBtn(email: String, password:String){
-        
+        self.controller.onLogin(email: email, password: password)
     }
     @objc public func onLogoutBtn(){
         

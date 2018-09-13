@@ -36,5 +36,11 @@ public class DependencyResolver{
         
     }
     
+    //Earn
+    public static func getEarnGateway() -> EarnGateway{
+        var gateway = EarnGateway_Impl();
+        return gateway;
+    }
+    
     
 }
